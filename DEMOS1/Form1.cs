@@ -6,5 +6,13 @@ namespace DEMOS1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int numero1 = 5;
+            int numero2 = 8;
+            int total = numero1 + numero2;
+            textBox1.Text = total.ToString();
+        }
     }
 }
