@@ -9,9 +9,17 @@ namespace DEMOS1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int numero1 = 5;
+            int numero1 = 15;
             int numero2 = 8;
             int total = numero1 + numero2;
+            textBox1.Text = total.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int numero1 = 15;
+            int numero2 = 8;
+            int total = numero1 - numero2;
             textBox1.Text = total.ToString();
         }
     }
