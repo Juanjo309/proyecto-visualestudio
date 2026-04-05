@@ -22,5 +22,13 @@ namespace DEMOS1
             int total = numero1 - numero2;
             textBox1.Text = total.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int numero1 = 15;
+            int numero2 = 8;
+            int total = numero1 * numero2;
+            textBox1.Text = total.ToString();
+        }
     }
 }
